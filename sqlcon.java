@@ -30,7 +30,7 @@ public class Main {
     {
         Class.forName("com.mysql.cj.jdbc.Driver");
         System.out.println("Driver class Loaded");
-        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Marks", "root", "Moha12Villan13");
+        Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Marks", "root", "M");
         System.out.println("Connected");
         Statement s = con.createStatement();
         System.out.println("Statement Object Created");
